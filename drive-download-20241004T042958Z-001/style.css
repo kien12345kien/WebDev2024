@@ -3,10 +3,16 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
+a{
+    text-decoration: none;
+}
+
 .header{
-    min-height: 100vh;
-    width: 100%;
-    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/background1.jpg); */
+    /* width: 1225px; */
+    margin: auto;
+    height: 500px;
+    /* width: 100%; */
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/background1.jpg);
     background-position: center;
     background-size: cover;
     position: relative; 
@@ -38,7 +44,7 @@ nav img{
     /* margin-right: 700px; */
 }
 .nav-links ul li a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 17px;
     padding: 26px 12px;
@@ -64,13 +70,15 @@ nav img{
 
 
 .text-box{
-    width: 90%;
-    color: black;
+    width: 1225px;
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/background1.jpg); */
+
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    text-align: center;
+    text-align: left;
 }
 .text-box h1{
     font-size: 70px;
@@ -78,14 +86,14 @@ nav img{
 .text-box p{
     margin: 10px 0 40px;
     font-size: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color:black;
-    border: 1px solid black;
+    color:rgb(255, 255, 255);
+    border: 1px solid rgb(214, 214, 214);
     padding: 12px 34px;
     font-size: 20px;
     background: transparent;
@@ -101,11 +109,13 @@ nav .fa{
     display: none;
 }
 
-
+.recommend-course-banner-following-trend{
+    width: 1225px;
+    margin: 50px auto 0 auto;
+}
 
 .course{
-    width: 80%;
-    margin: auto;
+    /* width: 1225px; */
     text-align: center;
     padding-top: 0px;
 }
@@ -122,35 +132,70 @@ p{
     padding: 10px;
 
 }
+.coures_recommend-categories_and_states{
+    text-align: left;
+}
 
 
 .row{
-    margin-top: 5%;
+    /* margin-top: 50px; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .course-col{
-    flex-basis: 24%;
+    /* flex-basis: 24%; */
+    border: 0.5px solid #a7a7a7a6; /* Black border */
+
     background: #fff3f3;
-    border-radius: 10px;
-    margin-bottom: 5%;
+    /* border-radius: 10px; */
+    margin: 10px 5px;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
-
+    /* text-align: left; */
 }
-h3{
+.course-col h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
 }
 
+.course-information img{
+    width: 275px;
+    height: 105px;
+}
+.course-information-details{
+    /* text-align: left; */
+    /* justify-content: left; */
+}
+.get-enrolment {
+    display: inline-block;
+    background-color: red;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+/* ----------------------------------------------- */
 
+.relate-course-categories{
+    width: 1225px;
+    margin: auto;
+}
 
+.course-card-rating{
+    display: flex;
+    font-size: 10px;
+    margin: 5px 0;
+}
+.star{
+    margin-left: 5px;
+    color: #B4690E;
+}
 
 /*  -------- Facilities--------  */
 .facilities{
-    width: 80%;
+    width: 1225px;
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -158,6 +203,18 @@ h3{
     align-items: center;
 }
 
+.relate-course-categories-banner-card{
+    display: block;
+    display: flex;
+    border-bottom: 0.5px solid #a7a7a7a6; /* Black border */
+    margin: 5px;
+    padding: 15px 0;
+}
+.relate-course-categories-information{
+    margin-left: 20px;
+        /* border: 0.5px solid #a7a7a7a6; Black border */
+
+}
 
 .facilities-col{
     flex-basis: 31%;
@@ -183,12 +240,13 @@ h3{
 /* testimonials */
 
 .Testimonials{
-    width: 80%;
+    width: 1225px;
     margin:auto;
     padding-top: 100px;
-    text-align: center;
+    text-align: left;
 }
 .testimonial-col{
+    border: 1px solid rgb(214, 214, 214);
     flex-basis: 31%;
     border-radius: 10px;
     margin: 10px;
@@ -213,11 +271,14 @@ h3{
     padding: 0;
 }
 .testimonial-col h3{
-    margin: 15px;
+    font-style: 20px;
+    /* margin: 15px; */
     text-align: left;
 }
-.testimonial-col .fa{
+.testimonial-col .star{
+    text-align: left;
     color: #f44336;
+    font-size: 15px;
 }
 
 
