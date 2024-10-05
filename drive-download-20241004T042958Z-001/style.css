@@ -10,13 +10,16 @@ a{
 .header{
     /* width: 1225px; */
     margin: auto;
-    height: 500px;
+    height: 650px;
     /* width: 100%; */
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/background1.jpg);
     background-position: center;
     background-size: cover;
     position: relative; 
     border-bottom: #777;
+}
+.header-banner-and-dropdown{
+    display: flex;
 }
 
 nav{
@@ -72,10 +75,11 @@ nav img{
 .text-box{
     width: 1225px;
     /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/background1.jpg); */
+    height: 650px;
 
-    color: rgb(255, 255, 255);
+    color: rgb(133, 20, 20);
     position: absolute;
-    top: 50%;
+    top: 600px;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: left;
@@ -109,11 +113,26 @@ nav .fa{
     display: none;
 }
 
-.recommend-course-banner-following-trend{
-    width: 1225px;
-    margin: 50px auto 0 auto;
+.scholar-page-title{
+    max-width: 1300px;
+    text-align: left;
+    margin: 0 auto;
 }
 
+.alternative-headline-module{
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.recommend-course-banner-following-trend{
+    width: 1225px;
+    margin: 50px auto 8px auto;
+}
+
+.category-headline-details{
+    font-size: 13px;
+    line-height: 22.4px;
+}
 .course{
     /* width: 1225px; */
     text-align: center;
