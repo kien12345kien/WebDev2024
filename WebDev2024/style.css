@@ -1,0 +1,61 @@
+*{
+    font-family: "Afacad Flux", sans-serif;
+}
+body, html {
+    height: 0;
+    max-width: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center; 
+    font-family: "Afacad Flux", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    /* background-color: brown; */
+}
+
+.ud-main-content-wrapper{
+
+}
+.ud-app-loader{
+
+}
+.ud_header{
+
+}
+.ud-header-logo-and-content{
+    display: flex;
+}
+.desktop-header-module--flex-middle--k0Teb{
+
+}
+.desktop-header-module--logo--AwnFF{
+
+}
+.ud_header_content{
+    /* margin: 26px 12px; */
+    background-color: brown;
+}
+.ud_header_content_tag_a{
+    display: block;
+    padding: 14px 12px;
+    margin: 12px 0px;
+    background-color: blue;
+}
+.ud_header_content_tag_span{
+    background-color: green;
+}
+.ud-search-form-autocomplete{
+
+}
+.desktop-header-module--search-bar--49122{
+
+}
+.ud-form-group{
+
+}
+.ud-main-content{
+
+}
