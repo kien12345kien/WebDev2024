@@ -29,6 +29,7 @@ li{
     align-items: center;
 }
 .course-title-lockup{
+    color: white;
     /* justify-content: center; */
     display: block;
     justify-content: left;
@@ -57,11 +58,13 @@ li{
     align-items: center;
     /* line-height: 28px; */
     font-size: 18px;
-    color: black;
+    color: rgb(255, 255, 255);
     /* padding: 5px; */
     margin: 0 10px;
 }
 .learning-header{
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/background1.jpg);
+
     color: white;
     display: flex;
     /* padding: 2% 6%; */
@@ -502,6 +505,8 @@ p{
 }
 .h4{
     font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
 }
 .dates-settled{
     display: flex;
@@ -516,8 +521,11 @@ p{
     margin-left: 5px;
 }
 .list-unstyled{
-    margin-top: 15px;
+    /* margin-top: 15px; */
 
+}
+.list-unstyled li{
+    padding: 0 10px;
 }
 .list-unstyled-body{
     margin-left: 25px;
@@ -534,7 +542,7 @@ p{
     padding-left: 20px; 
 }
 .list-unstyled-member {
-    padding: 10px 0;
+    padding: 16px 0;
     font-size: 18px;
     display: flex;
     border-top: 1px solid #DFDFDF;
@@ -556,8 +564,8 @@ p{
 }
 .collapsible-trigger-session-year{
     display: flex;
-    /* text-align: center; */border: 1px solid #DFDFDF;
-    padding: 10px 20px;
+    border: 1px solid #DFDFDF;
+    padding: 24px 20px;
 
 }
 .collapsible-trigger-session-year span{
@@ -568,4 +576,168 @@ p{
 }
 .courseHome-outline{
     border: 1px solid #DFDFDF;
+}
+.mb-4{
+    
+}
+.mb-4 ul{
+    list-style-type: disc;
+    margin: 0 45px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.mb-4 li{
+    display: list-item;
+}
+.mb-4 a{
+    color: #004972;
+    font-size: 18px;
+    line-height: 18px;
+    display: inline;
+    text-align: left;
+}
+.col-12-md-8 ol{
+    list-style-type: decimal;
+}
+.communities{
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.communities h2{
+    margin-bottom: 10px;
+
+}
+.communities ul{
+    list-style-type: disc;
+
+}
+.communities ul li{
+    line-height: 28px;
+    display: list-item;
+    padding: 3px 0;
+}
+.communities ul li a{
+    /* display: block; */
+}
+.sequence-navigation{
+    /* display: flex; */
+}
+.sequence-container{
+    /* background-color: #212529; */
+    justify-content: center;
+    /* max-width: 1350px; */
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+
+}
+
+.sequence-navigation-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.sequence-navigation-container nav{
+
+}
+.sequence-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.btn a{
+}
+.previous-btn {
+    padding: 10px;
+    
+}
+.current-btn{
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+/* .current-btn a{
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 35px;
+    display: inline-block;
+
+} */
+.next-btn{
+    /* display: inline-block;
+    align-items: center;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 24px;
+    padding: 0 35px;
+    text-align: center; */
+    padding: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-transform: uppercase;
+}
+.container a{
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+    color: black;
+    font-weight: 700;
+}
+.left-item {
+    background-color: #ffffff;
+    /* padding: 10px; */
+}
+
+.center-item {
+    background-color: #ffffff;
+    /* padding: 10px; */
+    text-align: center;
+    flex-grow: 1; /* This allows the center item to grow and occupy the available space */
+}
+
+.right-item {
+    background-color: #ffffff;
+    /* padding: 10px; */
+}
+
+.fa-ul li{
+    list-style-type: disc;
+
+}
+.fa-ul li::marker{
+    color: white;
+}
+.fa-ul li a{
+    color: #ef9aa4
+}
+.fa-ul{
+    padding: 10px 40px;
+    margin-left: 100px;
+}
+.fa-ul span{
+}
+.lecture-notes{
+    background-color: #212529;
+    /* background-color: #fff; */
+    padding: 20px;
+}
+.lecture-notes h2{
+    color: white;
+
+}
+.lecture-vid-notes-warp{
+    display: flex;
+    margin-left: 20px;
+
+}
+.lecture-vid-notes-warp iframe{
+    border: 1px solid #212529;
 }
