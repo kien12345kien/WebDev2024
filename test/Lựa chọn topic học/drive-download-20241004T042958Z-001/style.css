@@ -4,6 +4,7 @@
     font-family: "Poppins", sans-serif;}
 a{
     text-decoration: none;
+    color: black;
 }
 
 .header{
@@ -223,6 +224,7 @@ p{
 }
 
 .relate-course-categories-banner-card{
+    /* background-color: ; */
     display: block;
     display: flex;
     border-bottom: 0.5px solid #a7a7a7a6; /* Black border */
