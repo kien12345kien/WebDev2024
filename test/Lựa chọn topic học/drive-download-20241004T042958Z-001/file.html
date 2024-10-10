@@ -21,30 +21,25 @@
 
     <body>
         <div class ="header">
-            <nav class="">
-                <a href="file.html"> <img src="image/logo1.png" alt=""></a>
-                <div class ="nav-links" id="navLinks">
+            <nav>
+                <img onclick="window.location.href='file.html'" src="image/logo1.png" alt="">
+                <div class="navigation">
                     <ul>
-                        <li class="nav-links-details"><a href=""> HOME </a></li>
-                        <li class="nav-links-details"><a href=""> COURSE </a></li>
-                        <li class="nav-links-details access-learning-courses"><a href=""> MY LEARNING </a></li>
-                        <li class="nav-links-details"><a href=""> BUSINESS </a></li>
-												<!-- <li class="nav-links-details"><a href=""> <ion-icon name="bag-outline"></ion-icon> </a></li> -->
-                        <!-- <li class="nav-links-details"><a href=""> <ion-icon name="globe-outline"></ion-icon> </a></li> -->
-												<li class="nav-links-details"><a href=""> TEACHING </a></li>
-                        <li class="nav-links-details"><a href=""> SIGN UP </a></li>
-												<li class="nav-links-details"><a href="../../drive-download-20241005T072749Z-001/Web/file.html"> LOG IN </a></li>
-                        <!-- <li><a href=""> CONTACT </a></li>
-												<li><a href=""> CONTACT </a></li> -->
-
+                        <i id="menu-close" class="fas fa-times"></i>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Courses</a></li>
+                        <li><a href="mylearning.html">My Learning</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a class="blue" href="join.html">Join For Free</a></li>
                     </ul>
+                    <img id="menu-btn" src="images/menu.png" alt="">
                 </div>
             </nav>
 		</div>
 		<div class="text-box">
             <h1>Development Courses</h1>
             <p>Development Courses</p>
-            <!-- <a href="" class="hero-btn">Let's Start Learning</a> -->
 		</div>
 
                     <!------- COURSE ------>
@@ -449,16 +444,55 @@
                     
                      
                     <!-- Footer -->
-        <div class ="footer">  
-            <a href="file.html" class="logo"><img src="image/logo1.png" alt="STWME Logo"></a> 
-            <div class ="icons">
-                <i class="fa fa-facebook" ></i>
-                <i class="fa fa-twitter" ></i>
-                <i class="fa fa-instagram" ></i>
-                <i class="fa fa-linkedin" ></i>
-                <i class="fa fa-youtube-play" ></i>
-            </div>
-        </div>
+        <footer>
+			<div class="footer-content">
+
+				<div class="footer-col">
+					<h3>Top Products</h3>
+					<li>Manage Reputation</li>
+					<li>Power Tools</li>
+					<li>Managed Website</li>
+					<li>Marketing Service</li>
+				</div>
+				<div class="footer-col">
+					<h3>Quick Links</h3>
+					<li>Jobs</li>
+					<li>Brand Assets</li>
+					<li>Investor Relations</li>
+					<li>Terms of Service</li>
+				</div>
+				<div class="footer-col">
+					<h3>Features</h3>
+					<li>Manage Reputation</li>
+					<li>Power Tools</li>
+					<li>Managed Website</li>
+					<li>Marketing Service</li>
+				</div>
+				<div class="footer-col">
+					<h3>Resources</h3>
+					<li>Guides</li>
+					<li>Research</li>
+					<li>Experts</li>
+					<li>Marketing Service</li>
+				</div>
+				<div class="footer-col">
+					<h3>Newsletter</h3>
+					<p>You can trust us. we only send promo offers,</p>
+					<div class="subscribe">
+						<input type="text" name="" placeholder="Your Email Address" id="">
+						<a class="yellow" href="#">SUBSCRIBE</a>
+					</div>
+				</div>
+				<div class="copyright">
+					<p>Copyright ©2024 All rights reserved | This template is made by STWME</p>
+					<div class="pro-link">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-instagram"></i>
+						<i class="fab fa-linkedin-in"></i>
+					</div>
+				</div>
+			</div>
+		</footer>
         
 </body>
 
