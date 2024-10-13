@@ -43,7 +43,9 @@ nav img {
     cursor: pointer;
 }
 
-
+.navigation{
+    margin-right: 10px;
+}
 
 .navigation ul{
     display: block;
@@ -183,10 +185,6 @@ p{
     justify-content: center;
 }
 
-/* .coures_recommend-categories_and_states h2{
-    font-size: 25px;
-} */
-
 .row{
     font-family: "Poppins", sans-serif;
     /* margin-top: 50px; */
@@ -194,16 +192,16 @@ p{
     /* justify-content: space-between; */
 }
 .course-col{
-    /* flex-basis: 24%; */
+
     border: 0.5px solid #a7a7a7a6; /* Black border */
 
     background: #fff3f3;
-    /* border-radius: 10px; */
+
     margin: 10px 10px;
     padding: 15px 10px;
     box-sizing: border-box;
     transition: 0.5s;
-    /* text-align: left; */
+
 }
 .course-col h3{
     text-align: center;
@@ -302,7 +300,10 @@ p{
 
 .Testimonials{
     width: 1225px;
-    margin:auto;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
     padding-top: 100px;
     text-align: left;
 }
@@ -414,8 +415,8 @@ footer {
     
     margin-top: 8vw;
     padding: 5vw;
-    /* background-color: #002347; */
     background-color: #101C32;
+    /* background-color: #002347; */
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     grid-gap: 1rem; */
@@ -520,4 +521,103 @@ footer .pro-link i:hover {
     background: #FDC93B;
     color: #2c2c2c;
 }
-/* footer */
+/* footer */.cards-content{
+    /* margin: 0 15px; */
+    width: 400px;
+    /* height: 220px; */
+    margin: 15px 5px 30px 5px;
+    margin-bottom: 15px;
+}
+.view-contents{
+    display: block;
+    justify-content: left;
+    /* align-content: center; */
+    display: flex;
+}
+.card-content-warp-body{
+    display: block;
+    /* margin: 20px; */
+    justify-content: left;
+    align-items: left;
+    padding: 20px;
+    /* border: 0 1px 1px 1px solid #ff0000; */
+    border-right: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    /* background-color: #ffffff; */
+}
+.card-content-information{
+    display: block;
+}
+.card-content-information a{
+    /* color: #55555; */
+    font-weight: 300;
+    line-height: 30px;
+    /* padding: 2px 0 14px; */
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.cards-content img{
+    width: 400px;
+    height: 220px;
+}
+.middle-body-card-content-information{
+    margin: 20px;
+}
+.content-field-title{
+    /* line-height: 24px; */
+    color: black;
+    font-size: 20px;
+    /* margin: 20px; */
+}
+.icon-monitor{
+    /* margin-top: 10px; */
+    font-size: 16px;
+    display: flex;
+    justify-content: c;
+    font-weight: 300;
+    /* display: block; */
+}
+.icon-monitor p{
+    padding-left: 10px;
+}
+.field-name-course h2{
+    font-size: 20px;
+    word-wrap: break-word; 
+    line-height: 10px;
+    margin: 10px 0;
+    /* color: #A51C30; */
+}
+.field-name-course h2 a{
+    color: #a51c30;
+    font-weight: 500;
+}
+.field-name-course p{
+    /* line-height: 30px; */
+    font-weight: 0;
+    line-height: 20px;
+    /* padding-bottom: 10px; */
+}
+.group-details-inner{
+    justify-content: center;
+    text-align-last: left;
+    display: flex;
+    text-transform: uppercase;
+    margin: 25px 0 0 0;
+}
+.group-details-inner-information{
+    line-height: 24px;
+    font-size: 16px;
+    display: inline-block;
+    /* margin-right: 25px; */
+}
+.top_category_card{
+    width: 1225px;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    /* padding-top: 100px; */
+    margin-top: 30px;
+    text-align: left;
+}
