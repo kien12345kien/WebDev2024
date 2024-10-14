@@ -153,6 +153,27 @@ nav .fa{
     display: none;
 }
 
+.breadcrumb {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #1b3131;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #1b3131;
+    margin: 0 5px;
+}
+
 .recommend-course-banner-following-trend{
     width: 1225px;
     margin: 50px auto 0 auto;
@@ -599,8 +620,8 @@ footer .pro-link i:hover {
     /* padding-bottom: 10px; */
 }
 .group-details-inner{
-    justify-content: center;
-    text-align-last: left;
+    /* justify-content: center;
+    text-align-last: center; */
     display: flex;
     text-transform: uppercase;
     margin: 25px 0 0 0;
@@ -608,7 +629,9 @@ footer .pro-link i:hover {
 .group-details-inner-information{
     line-height: 24px;
     font-size: 16px;
-    display: inline-block;
+    /* display: inline-block; */
+    text-align: center;
+    justify-content: center;
     /* margin-right: 25px; */
 }
 .top_category_card{

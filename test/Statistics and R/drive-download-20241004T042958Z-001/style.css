@@ -81,6 +81,10 @@ li{
     text-align: left;
     margin: 0 auto;
 }
+.nav-links ul{
+    /* border-bottom: 1px solid gray; */
+
+}
 .nav-links ul li{
     margin: 0 auto;
     list-style: none;
@@ -109,7 +113,7 @@ li{
     content:'';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #000000;
     display: block;
     margin: auto;
     transition: 0.5;
@@ -181,8 +185,10 @@ li{
     line-height: 35px;
     /* width: 640px; */
 }
-.col-12-md-8{
+.col-12-md-8 h2{
     /* width: 880px; */
+    font-size: 24px;
+    font-weight: 700;
 }
 .col-12-md-8 p{
     /* color: b; */
@@ -731,3 +737,30 @@ footer .pro-link i:hover {
     color: #2c2c2c;
 }
 /* footer */
+.breadcrumb {
+    margin: 20px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #1b3131;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #1b3131;
+    margin: 0 5px;
+}
+
+.breadcrumb img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

@@ -153,6 +153,8 @@ nav .fa{
     display: none;
 }
 
+
+
 .recommend-course-banner-following-trend{
     width: 1225px;
     margin: 50px auto 0 auto;
@@ -502,6 +504,27 @@ footer .pro-link i:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
 }
+.breadcrumb {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #1b3131;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #1b3131;
+    margin: 0 5px;
+}
+
 .view-contents{
     display: block;
     justify-content: left;
@@ -590,4 +613,36 @@ footer .pro-link i:hover {
     font-size: 15px;
     display: inline-block;
     /* margin-right: 25px; */
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pagination a {
+    color: #7c001c;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.pagination a.active {
+    color: black;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.pagination span {
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #555;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #eee;
 }
