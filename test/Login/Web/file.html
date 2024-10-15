@@ -30,15 +30,16 @@
                         <label><input type="checkbox">Remember me</label>
                         <a href="#">Forgot password?</a>
                     </div>
-                    <button type="submit" class="btn">Login</button>
+                    <button type="submit" id="loginButton" class="btn">Login</button>
+
                     <script>
                         document.getElementById("loginButton").addEventListener("click", function(event) {
                             event.preventDefault(); 
-                            
-                            
-                            window.location.href = "đợi huy"; 
+                            // Change 'yourFile.html' to the actual file path you want to direct to
+                            window.location.href = "../../HomePage/file.html"; 
                         });
                     </script>
+
                     <div class="register-link">
                         <p>Don't have an account? <a
                         href="#">Register</a></p>

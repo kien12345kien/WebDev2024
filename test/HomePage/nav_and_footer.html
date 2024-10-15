@@ -1,0 +1,82 @@
+<link rel="stylesheet" href="style_navigation.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+
+
+<nav>
+    <img onclick="window.location.href='file.html'" src="images/logo1.png" alt="">
+    <div class="navigation">
+        <ul>
+            <i id="menu-close" class="fas fa-times"></i>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="mylearning.html">My Learning</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="blue" href="join.html">Join For Free</a></li>
+        </ul>
+        <img id="menu-btn" src="images/menu.png" alt="">
+    </div>
+</nav>
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Jobs</li>
+        <li>Brand Assets</li>
+        <li>Investor Relations</li>
+        <li>Terms of Service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Features</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Guides</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us. we only send promo offers,</p>
+        <div class="subscribe">
+            <input type="text" name="" placeholder="Your Email Address" id="">
+            <a class="yellow" href="#">SUBSCRIBE</a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©2024 All rights reserved | This template is made by STWME</p>
+        <div class="pro-link">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+    </div>
+</footer>
+
+<!-- dvl script -->
+<script>
+    $("#menu-btn").click(function() {
+        $("nav .navigation ul").addClass("active");
+    });
+    $("#menu-close").click(function() {
+        $("nav .navigation ul").removeClass("active");
+    });
+</script>
+
+<!-- dvl script -->
