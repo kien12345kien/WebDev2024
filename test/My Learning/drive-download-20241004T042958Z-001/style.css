@@ -320,13 +320,42 @@ footer .pro-link i:hover {
 }
 
 .view-contents{
-    display: block;
-    justify-content: left;
+    display: flex;
+    justify-content: space-around;
     /* align-content: center; */
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 5px;
-    margin: 20px;
+    
+}
+.box{
+    padding: 20px;
+    background-color: #c2c2c2;
+    display: block;
+    border-radius: 5px;
+}
+.tutor{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tutor div h3{
+    margin-bottom: 5px;
+}
+.tutor img{
+    border-radius: 50%; /* Ensure the image fits the circle */
+
+    background-color: #c2c2c2;
+    width: 50px;
+}
+.thumb{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.btn-enrolling-course{
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    font-weight: 500;
 
 }
 .card-content-warp-body{
@@ -439,4 +468,22 @@ footer .pro-link i:hover {
 
 .pagination a:hover:not(.active) {
     background-color: #eee;
+}
+.courses .box-container .box .tutor{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.courses .box-container .box .tutor img{
+    width: 4rem;
+    height: 4rem;
+    /* border-radius:50%; */
+    object-fit: cover;
+}
+.courses .box-container .box .thumb {
+    width: 100%;
+    /* border-radius: 0.5rem; */
+    height: 12rem;
+    object-fit: cover;
 }
