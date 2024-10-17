@@ -264,7 +264,7 @@ footer .pro-link i:hover {
     /* padding-bottom: 10px; */
 }
 .group-details-inner{
-    justify-content: center;
+    justify-content: space-between;
     /* text-align-last: left; */
     display: flex;
     text-transform: uppercase;
@@ -287,7 +287,7 @@ footer .pro-link i:hover {
     color: #7c001c;
     padding: 10px 15px;
     text-decoration: none;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     border: 1px solid #ddd;
     margin: 0 5px;
     font-size: 18px;
@@ -296,7 +296,7 @@ footer .pro-link i:hover {
 .pagination a.active {
     color: black;
     font-weight: bold;
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 .pagination span {
@@ -307,4 +307,68 @@ footer .pro-link i:hover {
 
 .pagination a:hover:not(.active) {
     background-color: #eee;
+}
+.subject-areas-container {
+    justify-content: left;
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    margin: 0 auto;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 8px; */
+}
+
+.subject-areas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    gap: 10px;
+}
+
+.column p {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #5a5a5a;
+}
+
+.column-content i {
+    margin-right: 8px;
+    color: #b30000; /* Icon color */
+}
+
+.column-content{
+    display: flex;
+    margin-top: 20px;
+}
+
+.column-content a{
+    color: #a51c30;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.view-courses-btn {
+    margin-top: 20px;
+    color: #a51c30;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.view-courses-btn:hover {
+    background-color: #8e0000;
 }
