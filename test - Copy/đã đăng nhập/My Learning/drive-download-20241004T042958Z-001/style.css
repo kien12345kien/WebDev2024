@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+    height: 500px; 
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/background1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    border-bottom: #777;
+}
+.header nav{
+    justify-content: space-between;
+    display: flex;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1vw 8vw; */
+    background: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+}
+
+nav img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navigation{
+    margin-right: 10px;
+}
+
+.navigation ul{
+    display: block;
+
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .navigation ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover,
+nav .navigation ul li a.active {
+    color: #FDC93B;
+}
+
+nav .navigation ul li a.blue {
+    font-size: 0.8rem;
+    padding: 13px 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(21, 21, 100);
+    border: 1px solid #412e88;
+    /* background: rgb(50, 50, 136); */
+}
+
+nav .navigation ul li a.blue:hover {
+    box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.1);
+}
+
+#menu-btn {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+#menu-btn img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#menu-close {
+    display: none;
+}
+
+
+
+.text-box{
+    font-family: "Poppins", sans-serif;
+    width: 1225px;
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/background1.jpg); */
+    top: 300px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    /* top: 20%; */
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.text-box h1{
+    font-size: 70px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+nav .fa{
+    display: none;
+}
+
+
+
+.recommend-course-banner-following-trend{
+    width: 1225px;
+    margin: 50px auto 0 auto;
+}
+
+.course{
+    /* width: 1225px; */
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-top: 0px;
+    justify-content: center;
+}
+.course h2{
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
+/*----------- Footer------------- */
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; /* Reduce space above the footer (adjust value as needed) */
+    padding-top: 0;
+}
+
+.logo {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 25px; /* Reduce space between the logo and icons (adjust value as needed) */
+    transform: scale(0.5); /* Keep logo scaled down */
+}
+
+.icons .fa {
+   color: #f44336;
+   margin: 0 10px; /* Adjust space between icons (reduce value for smaller gap) */ 
+   padding: 10px 0; /* Reduce padding around the icons to make them closer together */
+   font-size: 18px; /* Adjust font size to make the icons smaller */
+}
+
+
+footer {
+    
+    margin-top: 8vw;
+    padding: 5vw;
+    background-color: #101C32;
+    /* background-color: #002347; */
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 1rem; */
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.footer-col {
+    padding-bottom: 40px;
+}
+
+.footer-col h3 {
+    color: rgb(241, 240, 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.footer-col li {
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.footer-col li:hover {
+    color: rgb(241, 240, 245);
+}
+
+footer p {
+    color: #7b838a;
+}
+
+footer .subscribe {
+    margin-top: 20px;
+}
+
+footer input {
+    width: 220px;
+    padding: 15px 12px;
+    background: #334F6C;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+footer input::placeholder {
+    font-size: 0.9rem;
+}
+
+footer .subscribe a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background: #fff;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+footer .subscribe a.yellow {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #2c2c2c;
+    background: #FDC93B;
+}
+
+footer .subscribe a.yellow:hover {
+    background: #f7f3e9;
+    color: rgb(21, 21, 100);
+}
+
+footer .copyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+footer .copyright p {
+    color: #fff;
+}
+
+footer .pro-link {
+    margin-top: 0;
+}
+
+footer .pro-link i {
+    background: #5f7185;
+    color: #fff;
+}
+
+footer .pro-link i:hover {
+    background: #FDC93B;
+    color: #2c2c2c;
+}
+.cards-content{
+    display: block;
+    /* width: 400px; */
+    /* height: 220px; */
+    margin: 15px 5px 30px 5px;
+    /* margin-bottom: 15px; */
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+.breadcrumb {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #1b3131;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #1b3131;
+    margin: 0 5px;
+}
+
+.view-contents{
+    display: flex;
+    justify-content: space-around;
+    /* align-content: center; */
+    
+}
+.box{
+    padding: 20px;
+    background-color: #c2c2c2;
+    display: block;
+    border-radius: 5px;
+}
+.tutor{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tutor div h3{
+    margin-bottom: 5px;
+}
+.tutor img{
+    border-radius: 50%; /* Ensure the image fits the circle */
+
+    background-color: #c2c2c2;
+    width: 50px;
+}
+.thumb{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.btn-enrolling-course{
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    font-weight: 500;
+
+}
+.card-content-warp-body{
+    display: block;
+    /* margin: 20px; */
+    justify-content: left;
+    align-items: left;
+    padding: 20px;
+    /* border: 0 1px 1px 1px solid #ff0000; */
+    border-right: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    /* background-color: #ffffff; */
+}
+.card-content-information{
+    display: block;
+}
+.card-content-information a{
+    /* color: #55555; */
+    font-weight: 300;
+    line-height: 30px;
+    /* padding: 2px 0 14px; */
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.cards-content img{
+    width: 400px;
+    height: 220px;
+    object-fit: cover;
+
+}
+.middle-body-card-content-information{
+    margin: 20px;
+}
+.content-field-title{
+    /* line-height: 24px; */
+    color: black;
+    font-size: 20px;
+    /* margin: 20px; */
+}
+.icon-monitor{
+    /* margin-top: 10px; */
+    font-size: 16px;
+    display: flex;
+    justify-content: c;
+    font-weight: 300;
+    /* display: block; */
+}
+.icon-monitor p{
+    padding-left: 10px;
+}
+.field-name-course h2{
+    font-size: 20px;
+    word-wrap: break-word; 
+    line-height: 10px;
+    margin: 10px 0;
+    /* color: #A51C30; */
+}
+.field-name-course h2 a{
+    color: #a51c30;
+    font-weight: 500;
+}
+.field-name-course p{
+    /* line-height: 30px; */
+    font-weight: 0;
+    line-height: 20px;
+    /* padding-bottom: 10px; */
+}
+.group-details-inner{
+    justify-content: center;
+    /* text-align-last: left; */
+    display: flex;
+    text-transform: uppercase;
+    margin: 25px 0 0 0;
+}
+.group-details-inner-information{
+    line-height: 24px;
+    font-size: 15px;
+    display: inline-block;
+    /* margin-right: 25px; */
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pagination a {
+    color: #7c001c;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.pagination a.active {
+    color: black;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.pagination span {
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #555;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #eee;
+}
+.courses .box-container .box .tutor{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.courses .box-container .box .tutor img{
+    width: 4rem;
+    height: 4rem;
+    /* border-radius:50%; */
+    object-fit: cover;
+}
+.courses .box-container .box .thumb {
+    width: 100%;
+    /* border-radius: 0.5rem; */
+    height: 12rem;
+    object-fit: cover;
+}
+.user-profile {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card {
+    margin-bottom: 40px;
+    justify-content: left;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.profile-card h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.personal-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.personal-info h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.personal-info p {
+    margin-bottom: 5px;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.personal-info a.edit-profile {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.edit-profile {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    /* border-radius: 5px; */
+    margin-top: 1rem;
+    font-size: 20px;
+
+
+}
