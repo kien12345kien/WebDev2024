@@ -1,0 +1,11 @@
+.personal-icon{
+  display: block;
+  padding: 15px;
+  /* border: 1px solid rgb(21, 21, 100); */
+  /* border-radius: 50%; */
+}
+
+.personal-icon ion-icon{
+  /* display: inline; */
+  font-size: 35px;
+}

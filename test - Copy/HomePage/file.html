@@ -4,11 +4,14 @@
         <title>Home</title>
 		<link rel="icon" type="image/x-icon" href="image/logo1.png">
         <link rel = "stylesheet" href = "style1.css">
+        <link rel="stylesheet" href="https://unpkg.com/cloudflare-icons@1.0.0/cloudflare-icons.min.css">
+        <link rel = "stylesheet" href = "person.css">
         <link rel = "preconnect" href = "https://fonts.googleapis.com">  
         <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@100;200;300;400;500;600;700&display=swap">
         <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
         <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
         <link rel="stylesheet" href="style_navigation.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,26 +21,27 @@
         <!-- Swiper CSS -->
         <link rel = "stylesheet" href ="swiper-bundle.min.css">
         <script src="https://kit.fontawesome.com/5d4d2cbf95.js" ></script>
-
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </head>
 
     <body>
-        <section class ="header">
-            <nav>
-                <img onclick="window.location.href='file.html'" src="images/logo1.png" alt="">
-                <div class="navigation">
-                    <ul>
-                        <i id="menu-close" class="fas fa-times"></i>
-                        <li><a href="#" class="active">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="../Courses/drive-download-20241004T042958Z-001/file.html">Courses</a></li>
-                        <li><a href="../My Learning/drive-download-20241004T042958Z-001/file.html">My Learning</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a class="blue" href="../Login/Web/file.html">Join For Free</a></li>
-                    </ul>
-                    <img id="menu-btn" src="images/menu.png" alt="">
-                </div>
-            </nav>
+      <section class ="header">
+          <nav>
+              <img onclick="window.location.href='file.html'" src="images/logo1.png" alt="">
+              <div class="navigation">
+                  <ul>
+                      <i id="menu-close" class="fas fa-times"></i>
+                      <li><a href="#" class="active">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="../Courses/drive-download-20241004T042958Z-001/file.html">Courses</a></li>
+                      <li><a href="../My Learning/drive-download-20241004T042958Z-001/file.html">My Learning</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <li><a class="personal-icon" href="contact.html"><ion-icon  name="person-outline"></ion-icon></a></li>
+                  </ul>
+                  <img id="menu-btn" src="images/menu.png" alt="">
+              </div>
+          </nav>
 
         <div class="text-box">
             <h1>Study with Me</h1>
@@ -46,7 +50,7 @@
             </p>
             <a href="../Courses/drive-download-20241004T042958Z-001/file.html" class="hero-btn">Let's Start Learning</a>
         </div>
-        </section>
+      </section>
 
 <!------- COURSE ------>
 <section class ="course">
