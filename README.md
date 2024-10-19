@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
-* Group ID: *Your Group ID here*
-* Project Name: *Your Project Name here*
+* Name: Pham Tung Anh
+* ID: BA12-010
+* Group ID: 18
+* Project Name: Online Learning Platform
