@@ -10,6 +10,7 @@ a{
 }
 
 
+
 .course{
     /* width: 1225px; */
     font-family: "Poppins", sans-serif;
@@ -22,6 +23,9 @@ h1{
     font-weight: 600;
 
 }
+
+
+
 
 /*----------- Footer------------- */
 .footer {
@@ -157,11 +161,9 @@ footer .pro-link i:hover {
     color: #2c2c2c;
 }
 .cards-content{
-    display: block;
-    /* width: 400px; */
-    /* height: 220px; */
+    /* display: block; */
     margin: 15px 5px 30px 5px;
-    /* margin-bottom: 15px; */
+    text-align: left;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
@@ -188,20 +190,19 @@ footer .pro-link i:hover {
 }
 
 .view-contents{
-    display: block;
     justify-content: left;
     /* align-content: center; */
+    /* align-items: center; */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 5px;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 20px;
     margin: 20px;
 
 }
 .card-content-warp-body{
     display: block;
-    /* margin: 20px; */
-    justify-content: left;
-    align-items: left;
+
     padding: 20px;
     /* border: 0 1px 1px 1px solid #ff0000; */
     border-right: 1px solid #e1e1e1;
@@ -210,6 +211,7 @@ footer .pro-link i:hover {
     /* background-color: #ffffff; */
 }
 .card-content-information{
+    text-align: center;
     display: block;
 }
 .card-content-information a{
@@ -224,7 +226,8 @@ footer .pro-link i:hover {
     width: 400px;
     height: 220px;
     object-fit: cover;
-
+    text-align: center;
+    align-items: center;
 }
 .middle-body-card-content-information{
     margin: 20px;

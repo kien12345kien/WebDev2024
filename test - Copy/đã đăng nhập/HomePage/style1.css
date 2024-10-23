@@ -92,11 +92,13 @@ nav .fa{
     display: none;
 }
 
-
+.main-content{
+    margin-left: 300px;
+}
 
 .course{
     width: 80%;
-    margin: auto;
+    margin-left: 300px;
     text-align: center;
     padding-top: 0px;
 }

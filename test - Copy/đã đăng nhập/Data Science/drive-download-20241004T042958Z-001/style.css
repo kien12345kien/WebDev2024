@@ -384,7 +384,7 @@ p{
 }
 .course-card-amount-of-time-of-lecture{
     color: #7e7e7e;
-    display: flex;
+    /* display: flex; */
     font-size: 13px;
     /* padding: 0 20px; */
 }
@@ -569,6 +569,7 @@ footer .pro-link i:hover {
     /* background-color: #ffffff; */
 }
 .card-content-information{
+    text-align: center;
     display: block;
 }
 .card-content-information a{

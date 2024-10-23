@@ -353,6 +353,7 @@ nav .fa{
 }
 .cards-content{
     justify-content: center;
+    text-align: left;
     width: 400px;
     margin: 15px 5px 30px 5px;
     margin-bottom: 15px;
@@ -381,8 +382,6 @@ nav .fa{
     height: 220px;
 }
 .card-content-warp-body{
-    justify-content: center;
-    align-items: center;
     display: block;
     padding: 20px;
     border-right: 1px solid #e1e1e1;
@@ -507,4 +506,7 @@ footer .pro-link i {
 footer .pro-link i:hover {
     background: #FDC93B;
     color: #2c2c2c;
+}
+.field-items{
+    text-align: justify;
 }
